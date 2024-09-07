@@ -1,0 +1,74 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+.collapse{
+    display: flex;
+    margin-top: -35px ;margin-left: 20rem;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+}
+.d-flex{
+    padding-left:15px;padding-right: 15px;
+    margin-top: 12px ;margin-left: 10rem;
+}
+.me-1{
+    margin-left: 5px;
+padding: 15px;
+}
+.nav-item {
+    margin: 0 0.5rem;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,..."); /* Default bootstrap icon */
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline-dark {
+    border: 1px solid #343a40;
+    color: #343a40;
+    background-color: transparent;
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.btn-outline-dark .fa {
+    margin-right: 0.25rem;
+}

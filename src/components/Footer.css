@@ -1,0 +1,67 @@
+/* src/components/Footer.css */
+  /**/
+  footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+  .left{
+    margin-right: 12rem;
+}
+.left p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-bottom: 0.1rem;
+    font-size: 15px;
+    padding: 11px
+}
+.left .Icons {
+    margin-left: 11rem;
+    font-size: 17px;
+}
+.left .Icons a i{
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 7px;
+    color: white;
+    background-color: rgb(16, 15, 15);
+}
+.middel1 ,.middel2 ,.right{
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-bottom: 5rem;
+}
+
+.middel1 ,.middel2 ,.middel13,.right h4{
+    font-size: 13px;
+}
+
+.middel1 h4{
+    padding-left: 0.4rem;
+    padding-bottom: 0.5rem;
+}
+
+.middel2 h4{
+    padding-left: 1.0rem;
+    padding-bottom: 0.5rem;
+}
+.middel3 h4{
+    padding-left: 1.4rem;
+    padding-bottom: 0.5rem;
+}
+.right h4{
+    padding-left: 1.4rem;
+    margin-top: 01rem;
+    padding-bottom: 0.5rem;
+}
+.right p{
+    font-size: 12px;
+    padding-left: 1.4rem;
+    padding-top: 0.5rem;
+}
